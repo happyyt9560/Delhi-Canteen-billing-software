@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Generated web and desktop builds
+dist/
+release/
+
+# Local application data and SQLite sidecar files
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Environment files and logs
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
